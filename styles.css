@@ -149,6 +149,14 @@ body {
   text-transform: uppercase;
   font-size: 40px;
   color: #fff;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.el__para {
+  text-transform: none;
+  font-size: 20px;
+  padding-right: 20%;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
 }
 .el__close-btn {
   z-index: -1;
@@ -387,7 +395,24 @@ body {
 }
 
 @media (max-width: 768px) {
+  .el__bg {
+    width: calc(100vw - 50px);
+  }
+  .cont {
+    padding: 40px 35px;
+  }
   .el__heading {
     transform: translate3d(0%, 0, 0) rotate(-90deg);
+  }
+  .el__text {
+    font-size: 25px;
+  }
+  .el__para {
+    font-size: 14px;
+    padding: 0%;
+    color: #fff;
+  }
+  .el__index{
+    display: none;
   }
 }
