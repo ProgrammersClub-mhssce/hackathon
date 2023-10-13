@@ -387,47 +387,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* Your responsive styles for screens with a maximum width of 768px */
-
-  body {
-    font-size: 16px; /* Adjust the font size for better readability on smaller screens */
-  }
-
-  .header {
-    font-size: 24px; /* Increase the header font size for better visibility */
-  }
-
-  .cont {
-    padding: 20px; /* Reduce the padding for the content container */
-  }
-
-  .el {
-    width: 100%; /* Make the elements take the full width of the screen */
-    height: auto; /* Let the height adjust based on the content */
-    margin-bottom: 20px; /* Add some spacing between the elements */
-  }
-
-  .el__inner {
-    height: auto; /* Allow the inner content to adapt its height */
-    padding: 10px; /* Adjust the inner content padding for better spacing */
-  }
-
-  .el__bg {
-    width: 100%; /* Make the background take the full width of the element */
-    height: 200px; /* Set a specific height for the background image */
-  }
-
   .el__heading {
-    font-size: 18px; /* Adjust the heading font size for better readability */
-  }
-
-  .el__text {
-    font-size: 14px; /* Adjust the text font size for better readability */
-  }
-
-  .icon-link {
-    position: relative;
-    display: inline-block; /* Display the social icons inline */
-    margin: 0 10px; /* Add some spacing between the icons */
+    transform: translate3d(0%, 0, 0) rotate(-90deg);
   }
 }
